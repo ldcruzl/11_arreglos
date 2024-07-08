@@ -17,3 +17,9 @@ int main(){
     }
     return 0;
 }
+//Definimos la funcion:
+void relleno(int* arreglo, int tam, int mult){
+    for(int i=0; i<tam; i++){
+        arreglo[i]=mult*(i+1);
+    }
+}
